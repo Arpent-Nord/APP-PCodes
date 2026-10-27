@@ -1,6 +1,6 @@
 {
-  "name": "Recherche Codes ArpentNord",
-  "short_name": "Codes AN",
+  "name": "Pcodes et Liaisons – Arpent-Nord",
+  "short_name": "Pcodes",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0d0f13",
