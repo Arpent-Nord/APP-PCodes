@@ -184,6 +184,7 @@ function ctRender(){
   const s = ctLire(), ks = Object.keys(s).sort(), box = document.getElementById("ctList");
   box.innerHTML = ks.length ? ks.map(k => { const c = s[k]; return `<div class="ct"><div class="ct-h"><b>${escH(k)}</b><button class="x" onclick="ctRetirer('${escH(k)}')">Retirer</button></div>
     <div class="ct-d">${escH(c.n || "")}</div><div class="ct-d">À jour au <b>${escH(dateFr(c.d))}</b> · ${c.m === "wbs" ? "secteurs WBS" : "numéro de contrat"} · ${c.s.length} secteur(s)</div>
+    ${(c.a || []).length ? `<div class="ct-d" style="color:#ffcf7a">Ancien(s) secteur(s), à ne plus utiliser : ${c.a.map(([o, n]) => `<code>${escH(o)}</code> → <code>${escH(n)}</code>`).join(" · ")}</div>` : ""}
     <table>${c.s.map(([x, d, w]) => `<tr><td><code>${escH(x)}</code></td><td>${w ? `WBS <b>${escH(w)}</b><br>` : ""}${escH(d)}</td></tr>`).join("")}</table></div>`; }).join("")
     : '<p class="lz-n">Aucun contrat enregistré sur cet appareil.</p>';
   if (window.anJourListe) window.anJourListe();
@@ -201,13 +202,14 @@ async function decoderLien(h){
   const p = JSON.parse(new TextDecoder().decode(bytes));
   if (p.v !== 1 || !/^(AN|MA)-\d{2}-\d{3,4}$/.test(p.c) || !Array.isArray(p.s) || !/^\d{4}-\d{2}-\d{2}$/.test(p.d)) throw new Error("contenu invalide");
   p.s = p.s.filter(x => Array.isArray(x) && /^[A-Z0-9]{4}$/.test(x[0])).map(x => x[2] ? [x[0], String(x[1] || ""), String(x[2])] : [x[0], String(x[1] || "")]);
+  p.a = Array.isArray(p.a) ? p.a.filter(x => Array.isArray(x) && /^[A-Z0-9]{4}$/.test(x[0]) && /^[A-Z0-9]{4}$/.test(x[1])) : [];
   return p;
 }
 async function importer(h){
   try {
     const p = await decoderLien(h), s = ctLire(), avant = s[p.c];
     if (avant && avant.d > p.d && !confirm(`Ce lien (${dateFr(p.d)}) est plus ancien que votre liste de ${p.c} (${dateFr(avant.d)}). Le remplacer quand même ?`)) return;
-    s[p.c] = {n: p.n, m: p.m, d: p.d, s: p.s, recu: new Date().toISOString().slice(0, 10)};
+    s[p.c] = {n: p.n, m: p.m, d: p.d, s: p.s, a: p.a, recu: new Date().toISOString().slice(0, 10)};
     if (!ctEcrire(s)) throw new Error("stockage impossible sur cet appareil (navigation privée ?)");
     ctRender(); ouvrirSection("contrats");
     avis(`Secteurs de ${p.c} enregistrés : ${p.s.length} secteur(s), à jour au ${dateFr(p.d)}.`, true);
