@@ -1,6 +1,6 @@
 /* Pcodes et Liaisons – Arpent-Nord : fonctionnement hors ligne.
    Changer VERSION à chaque publication pour que les téléphones prennent la nouvelle copie. */
-const VERSION = "2.1.0";
+const VERSION = "2.2.0";
 const CACHE = "pcodes-" + VERSION;
 const FICHIERS = ["./", "./index.html", "./manifest.json", "./logo.png", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 

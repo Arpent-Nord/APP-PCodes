@@ -1,0 +1,3623 @@
+{
+ "_note": "Liste maîtresse des Pcodes Arpent-Nord. Source : Liste_de_codes ArpentNord_Categorie_V2 (sept. 2020) + ajouts confirmés (905, 906, 909, 911, 913) + code 28 élargi. type : d = point, g = ligne, c = cercle/autre (Validation de levé). motscles : anciennes formulations de Pcodes, cherchables mais non affichées. Modifier ICI seulement, puis lancer node tools/generer.js.",
+ "version": "2026-11-09",
+ "codes": [
+  {
+   "code": "1",
+   "aph": "CPV",
+   "description": "Contrôle photo verticale",
+   "categorie": "Repères",
+   "couche": "C-REP-CONTROLE-PHOTO",
+   "type": "g"
+  },
+  {
+   "code": "2",
+   "aph": "CPH",
+   "description": "Contrôle photo horizontale",
+   "categorie": "Repères",
+   "couche": "C-REP-CONTROLE-PHOTO",
+   "type": "g"
+  },
+  {
+   "code": "3",
+   "aph": "CPT",
+   "description": "Contrôle photo tridimensionnel",
+   "categorie": "Repères",
+   "couche": "C-REP-CONTROLE-PHOTO",
+   "type": "d"
+  },
+  {
+   "code": "4",
+   "aph": "CLU",
+   "description": "Clou",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "d"
+  },
+  {
+   "code": "6",
+   "aph": "CPK",
+   "description": "Clou p.k.",
+   "categorie": "Repères",
+   "couche": "C-REP-CHEMINEMENT",
+   "type": "g"
+  },
+  {
+   "code": "7",
+   "aph": "MOD",
+   "description": "Monument délimitatif",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "g"
+  },
+  {
+   "code": "8",
+   "aph": "PIB",
+   "description": "Piquet de bois (repère)",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "d"
+  },
+  {
+   "code": "9",
+   "aph": "RGI",
+   "description": "Repère géodésique intégré (SCOPQ)",
+   "categorie": "Repères",
+   "couche": "C-REP-GEODESIQUE",
+   "type": "d"
+  },
+  {
+   "code": "10",
+   "aph": "RGN",
+   "description": "Repère GPS, non intégré",
+   "categorie": "Repères",
+   "couche": "C-REP-GEODESIQUE",
+   "type": "g"
+  },
+  {
+   "code": "14",
+   "aph": "RAI",
+   "description": "Repère altimétrique intégré (SCOPQ)",
+   "categorie": "Repères",
+   "couche": "C-REP-GEODESIQUE",
+   "type": "g"
+  },
+  {
+   "code": "15",
+   "aph": "RAP",
+   "description": "Repère d'arpentage primitif",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "g"
+  },
+  {
+   "code": "17",
+   "aph": "RCS",
+   "description": "Repère de cheminement (station)",
+   "categorie": "Repères",
+   "couche": "C-REP-CHEMINEMENT",
+   "type": "g"
+  },
+  {
+   "code": "18",
+   "aph": "RAL",
+   "description": "Repère altimétrique",
+   "categorie": "Repères",
+   "couche": "C-REP-CHEMINEMENT",
+   "type": "g"
+  },
+  {
+   "code": "19",
+   "aph": "RIP",
+   "description": "Repère identifié planté",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "g"
+  },
+  {
+   "code": "20",
+   "aph": "TUF",
+   "description": "Tuyau de fer",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "g",
+   "motscles": "Tuyau de fer (repère)"
+  },
+  {
+   "code": "21",
+   "aph": "RAT",
+   "description": "Repère d'arpentage trouvé",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "g"
+  },
+  {
+   "code": "24",
+   "aph": "TIF",
+   "description": "Tige de fer",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "g",
+   "motscles": "Tige de fer (repère)"
+  },
+  {
+   "code": "26",
+   "aph": "ALP",
+   "description": "Arbre/ligne plaquée",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "d",
+   "motscles": "Arbre / ligne plaquée (repère)"
+  },
+  {
+   "code": "27",
+   "aph": "MGR",
+   "description": "Marque gravée",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "d"
+  },
+  {
+   "code": "28",
+   "aph": "BAL",
+   "description": "Balise (tous types : témoin de point géodésique, fils, conduit CN, etc.)",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "d"
+  },
+  {
+   "code": "29",
+   "aph": "PIC",
+   "description": "Piquet de clôture",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "d",
+   "motscles": "Piquet de clôture (repère)"
+  },
+  {
+   "code": "30",
+   "aph": "LIR",
+   "description": "Ligne de référence, de centre, d'opération, etc.",
+   "categorie": "Géométrie",
+   "couche": "C-GEO-LIGNE-REFERENC",
+   "type": "d"
+  },
+  {
+   "code": "56",
+   "aph": "ALA",
+   "description": "Alignement d'arbres",
+   "categorie": "Végétation",
+   "couche": "C-VEG-ALIGNEM-ARBRES",
+   "type": "g",
+   "motscles": "Arbres, alignement"
+  },
+  {
+   "code": "61",
+   "aph": "CLO",
+   "description": "Clôture (autre qu'à mailles serrées)",
+   "categorie": "Information Foncière",
+   "couche": "C-FON-CLOTURE",
+   "type": "g"
+  },
+  {
+   "code": "63",
+   "aph": "CLM",
+   "description": "Clôture Frost",
+   "categorie": "Information Foncière",
+   "couche": "C-FON-CLOTURE-MAILLE",
+   "type": "g"
+  },
+  {
+   "code": "65",
+   "aph": "FOF",
+   "description": "Fond de fossé",
+   "categorie": "Draînage",
+   "couche": "C-DRA-FOSSE-FOND",
+   "type": "g",
+   "motscles": "Fossé, fond"
+  },
+  {
+   "code": "67",
+   "aph": "DAL",
+   "description": "Dalot de drainage",
+   "categorie": "Draînage",
+   "couche": "C-DRA-DALOT",
+   "type": "g"
+  },
+  {
+   "code": "68",
+   "aph": "CAN",
+   "description": "Caniveau",
+   "categorie": "Draînage",
+   "couche": "C-DRA-CANIVEAU",
+   "type": "g",
+   "motscles": "Caniveau (Draînage)"
+  },
+  {
+   "code": "69",
+   "aph": "FOC",
+   "description": "Centre de fossé",
+   "categorie": "Draînage",
+   "couche": "C-DRA-FOSSE-CENTRE",
+   "type": "g",
+   "motscles": "Fossé, centre"
+  },
+  {
+   "code": "70",
+   "aph": "FOB",
+   "description": "Bord de fossé (limite d'excavation)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-FOSSE-BORD",
+   "type": "g",
+   "motscles": "Fossé, bord (limite d'excavation)"
+  },
+  {
+   "code": "71",
+   "aph": "OCC",
+   "description": "Limite d'occupation",
+   "categorie": "Information Foncière",
+   "couche": "C-FON-OCCUPATION",
+   "type": "g"
+  },
+  {
+   "code": "73",
+   "aph": "PRO",
+   "description": "Prolongement",
+   "categorie": "Information Foncière",
+   "couche": "C-FON-OCCUPATION",
+   "type": "g"
+  },
+  {
+   "code": "74",
+   "aph": "ENB",
+   "description": "Eaux normales basses",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EAU-NORM-BASS",
+   "type": "g"
+  },
+  {
+   "code": "75",
+   "aph": "BOL",
+   "description": "Limite de boisé",
+   "categorie": "Végétation",
+   "couche": "C-VEG-BOISE",
+   "type": "g",
+   "motscles": "Boisé, limite"
+  },
+  {
+   "code": "76",
+   "aph": "EAJ",
+   "description": "Eaux du jour",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EAU-JOUR",
+   "type": "g"
+  },
+  {
+   "code": "77",
+   "aph": "CEC",
+   "description": "Centre de cours d'eau",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EAU-CENTRE",
+   "type": "g",
+   "motscles": "Cours d'eau, centre"
+  },
+  {
+   "code": "78",
+   "aph": "ENH",
+   "description": "Eaux normales hautes",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EAU-NORM-HAUT",
+   "type": "d"
+  },
+  {
+   "code": "79",
+   "aph": "EAE",
+   "description": "Eaux extrêmes (ligne des hautes eaux)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EAU-EXTREME",
+   "type": "d"
+  },
+  {
+   "code": "80",
+   "aph": "HAC",
+   "description": "Centre de haie",
+   "categorie": "Végétation",
+   "couche": "C-VEG-HAIE",
+   "type": "d",
+   "motscles": "Haie, centre"
+  },
+  {
+   "code": "81",
+   "aph": "TAH",
+   "description": "Haut de talus",
+   "categorie": "Topographie",
+   "couche": "C-TOP-TALUS-HAUT",
+   "type": "d",
+   "motscles": "Talus, haut"
+  },
+  {
+   "code": "82",
+   "aph": "TAB",
+   "description": "Bas de talus",
+   "categorie": "Topographie",
+   "couche": "C-TOP-TALUS-BAS",
+   "type": "d",
+   "motscles": "Talus, bas"
+  },
+  {
+   "code": "83",
+   "aph": "MUS",
+   "description": "Mur de soutènement",
+   "categorie": "Structures",
+   "couche": "C-STR-MUR-SOUTENEMEN",
+   "type": "d"
+  },
+  {
+   "code": "84",
+   "aph": "DEC",
+   "description": "Décrochement de terrain",
+   "categorie": "Topographie",
+   "couche": "C-TOP-DECROCHEMENT",
+   "type": "d"
+  },
+  {
+   "code": "85",
+   "aph": "MUR",
+   "description": "Mur de tête de ponceau",
+   "categorie": "Draînage",
+   "couche": "C-DRA-MUR",
+   "type": "d",
+   "motscles": "Ponceau (Mur de tête)"
+  },
+  {
+   "code": "87",
+   "aph": "MUM",
+   "description": "Axe de mur mitoyen",
+   "categorie": "Information Foncière",
+   "couche": "C-FON-MUR-MITOYEN",
+   "type": "d",
+   "motscles": "Mur mitoyen, axe"
+  },
+  {
+   "code": "88",
+   "aph": "MAP",
+   "description": "Mur d'aménagement paysager, écran acoustique, etc.",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-MUR-AMENAGEMEN",
+   "type": "d",
+   "motscles": "Mur d'aménag. paysager, écran acoustique, etc."
+  },
+  {
+   "code": "89",
+   "aph": "ROC",
+   "description": "Limite de roc en surface",
+   "categorie": "Topographie",
+   "couche": "C-TOP-ROC-EN-SURFACE",
+   "type": "d",
+   "motscles": "Roc en surface, limite"
+  },
+  {
+   "code": "90",
+   "aph": "PLL",
+   "description": "Limite de plantation",
+   "categorie": "Végétation",
+   "couche": "C-VEG-PLANTATION",
+   "type": "d",
+   "motscles": "Plantation, limite"
+  },
+  {
+   "code": "91",
+   "aph": "POB",
+   "description": "Point coté bathymétrique",
+   "categorie": "Topographie",
+   "couche": "C-TOP-COTE-BATHYMETR",
+   "type": "d"
+  },
+  {
+   "code": "94",
+   "aph": "POA",
+   "description": "Point topo",
+   "categorie": "Topographie",
+   "couche": "C-TOP-COTE-ALTIME",
+   "type": "d"
+  },
+  {
+   "code": "95",
+   "aph": "CHP",
+   "description": "Changement de pente",
+   "categorie": "Topographie",
+   "couche": "C-TOP-CHANG-PENTE",
+   "type": "d"
+  },
+  {
+   "code": "96",
+   "aph": "CPA",
+   "description": "Changement de pente approximatif (photo : imprécision en élévation <1m)",
+   "categorie": "Topographie",
+   "couche": "C-TOP-CHANG-PENTE-AP",
+   "type": "d",
+   "motscles": "Changement de pente approx. (photo: ± Z < 1m)"
+  },
+  {
+   "code": "97",
+   "aph": "PAA",
+   "description": "Point coté altimétrique approximatif (photo : imprécision en élévation <1m)",
+   "categorie": "Topographie",
+   "couche": "C-TOP-COTE-ALTIME-AP",
+   "type": "d",
+   "motscles": "Point coté altimétrique approx. (photo : ± Z < 1m)"
+  },
+  {
+   "code": "98",
+   "aph": "ALR",
+   "description": "Alignement de roches",
+   "categorie": "Information Foncière",
+   "couche": "C-FON-ALIGNEM-ROCHES",
+   "type": "d",
+   "motscles": "Roches, alignement"
+  },
+  {
+   "code": "99",
+   "aph": "BEM",
+   "description": "Banc d'emprunt",
+   "categorie": "Topographie",
+   "couche": "C-TOP-BANC-EMPRUNT",
+   "type": "d"
+  },
+  {
+   "code": "108",
+   "aph": "FME",
+   "description": "Frontière de modélisation extérieure",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FRONTIERE",
+   "type": "g"
+  },
+  {
+   "code": "109",
+   "aph": "FMI",
+   "description": "Frontière de modélisation intérieure (aire non modélisable)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FRONTIERE",
+   "type": "g",
+   "motscles": "Frontière de modél. Int. (aire non modélisable)"
+  },
+  {
+   "code": "110",
+   "aph": "BAT",
+   "description": "Bâtiment divers",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-PRINCIPAL",
+   "type": "d"
+  },
+  {
+   "code": "111",
+   "aph": "BBT",
+   "description": "Bord de toiture (levé photo)",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-TOITURE",
+   "type": "d",
+   "motscles": "Toiture, bord (levé photo)"
+  },
+  {
+   "code": "112",
+   "aph": "BIN",
+   "description": "Bâtiment institutionnel",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-PRINCIPAL",
+   "type": "d"
+  },
+  {
+   "code": "113",
+   "aph": "BRE",
+   "description": "Bâtiment religieux",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-PRINCIPAL",
+   "type": "d"
+  },
+  {
+   "code": "116",
+   "aph": "BAA",
+   "description": "Bâtiment agricole",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-PRINCIPAL",
+   "type": "d"
+  },
+  {
+   "code": "120",
+   "aph": "BAC",
+   "description": "Bâtiment commercial",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-PRINCIPAL",
+   "type": "d"
+  },
+  {
+   "code": "121",
+   "aph": "BAR",
+   "description": "Bâtiment résidentiel",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-PRINCIPAL",
+   "type": "d"
+  },
+  {
+   "code": "123",
+   "aph": "ABR",
+   "description": "Abribus",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "d"
+  },
+  {
+   "code": "124",
+   "aph": "CAT",
+   "description": "Cabine téléphonique",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "d"
+  },
+  {
+   "code": "126",
+   "aph": "BAS",
+   "description": "Bâtiment secondaire (autres)",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ANNEXE",
+   "type": "d"
+  },
+  {
+   "code": "127",
+   "aph": "ABA",
+   "description": "Abri d'auto",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ANNEXE",
+   "type": "d"
+  },
+  {
+   "code": "128",
+   "aph": "BCO",
+   "description": "Bâtiment en construction",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-PRINCIPAL",
+   "type": "d"
+  },
+  {
+   "code": "129",
+   "aph": "BAI",
+   "description": "Bâtiment industriel",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-PRINCIPAL",
+   "type": "d"
+  },
+  {
+   "code": "130",
+   "aph": "BRU",
+   "description": "Bâtiment en ruine",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-RUINE",
+   "type": "d"
+  },
+  {
+   "code": "131",
+   "aph": "MAA",
+   "description": "Massif d'ancrage (base de béton)",
+   "categorie": "Structures",
+   "couche": "C-STR-MASSIF-ANCRAGE",
+   "type": "d"
+  },
+  {
+   "code": "133",
+   "aph": "ESC",
+   "description": "Escalier",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "d"
+  },
+  {
+   "code": "134",
+   "aph": "FON",
+   "description": "Fondation de bâtiment",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-FONDATION",
+   "type": "d"
+  },
+  {
+   "code": "135",
+   "aph": "ELD",
+   "description": "Élément décoratif (statue, fontaine, rocaille)",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "d",
+   "motscles": "Elément décoratif (statue, fontaine, rocaille)"
+  },
+  {
+   "code": "136",
+   "aph": "CLI",
+   "description": "Limite de culture",
+   "categorie": "Végétation",
+   "couche": "C-VEG-CULTURE",
+   "type": "d",
+   "motscles": "Culture, limite"
+  },
+  {
+   "code": "137",
+   "aph": "POU",
+   "description": "Poteau utilitaire",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "d"
+  },
+  {
+   "code": "138",
+   "aph": "PAT",
+   "description": "Patio/terrasse",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "d"
+  },
+  {
+   "code": "139",
+   "aph": "PIL",
+   "description": "Pilier ou fût",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "g"
+  },
+  {
+   "code": "140",
+   "aph": "PCR",
+   "description": "Piscine creusé",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "141",
+   "aph": "PHT",
+   "description": "Piscine hors terre",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "142",
+   "aph": "IPE",
+   "description": "Îlot pour pompe à essence",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g",
+   "motscles": "Pompe à essence (Îlot)"
+  },
+  {
+   "code": "143",
+   "aph": "BUT",
+   "description": "Butoir",
+   "categorie": "Structures",
+   "couche": "C-STR-BUTOIR",
+   "type": "g"
+  },
+  {
+   "code": "144",
+   "aph": "DAB",
+   "description": "Dalle de béton",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "145",
+   "aph": "TOU",
+   "description": "Tour, antenne, autres",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "146",
+   "aph": "JNT",
+   "description": "Joint dilatation",
+   "categorie": "Structures",
+   "couche": "C-STR-JOINT",
+   "type": "g"
+  },
+  {
+   "code": "147",
+   "aph": "QUA",
+   "description": "Quai",
+   "categorie": "Structures",
+   "couche": "C-STR-QUAI",
+   "type": "g"
+  },
+  {
+   "code": "148",
+   "aph": "PHA",
+   "description": "Phare",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-PRINCIPAL",
+   "type": "g"
+  },
+  {
+   "code": "149",
+   "aph": "PTE",
+   "description": "Dessous de poutre",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "g",
+   "motscles": "Poutres, Dessous"
+  },
+  {
+   "code": "151",
+   "aph": "MOC",
+   "description": "Monument commémoratif",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "152",
+   "aph": "BRS",
+   "description": "Bouche de réservoir souterrain",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g",
+   "motscles": "Réservoir souterrain, Bouche"
+  },
+  {
+   "code": "153",
+   "aph": "REV",
+   "description": "Limite de réservoir",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g",
+   "motscles": "Réservoir, limite"
+  },
+  {
+   "code": "155",
+   "aph": "CHE",
+   "description": "Champ d'épuration",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-CHAMP-EPURATIO",
+   "type": "g"
+  },
+  {
+   "code": "156",
+   "aph": "GAL",
+   "description": "Galerie",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ANNEXE",
+   "type": "g"
+  },
+  {
+   "code": "157",
+   "aph": "FOE",
+   "description": "Foyer extérieur",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "160",
+   "aph": "FOP",
+   "description": "Fosse à purin",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "161",
+   "aph": "FPS",
+   "description": "Fût de panneau de petite signalisation",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-PETITE",
+   "type": "g"
+  },
+  {
+   "code": "162",
+   "aph": "MDC",
+   "description": "Marquage axial double continu",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-MARQ-DOUB-CONT",
+   "type": "g"
+  },
+  {
+   "code": "163",
+   "aph": "MDM",
+   "description": "Marquage axial double mixte",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-MARQ-DOUB-MIXT",
+   "type": "g"
+  },
+  {
+   "code": "164",
+   "aph": "FSL",
+   "description": "Fût de supersignalisation latérale",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-SUPER-LATERALE",
+   "type": "g"
+  },
+  {
+   "code": "165",
+   "aph": "FSA",
+   "description": "Fût de supersignalisation aérienne (portique)",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-SUPER-AERIENNE",
+   "type": "g",
+   "motscles": "Fût de supersignal. aérienne (portique)"
+  },
+  {
+   "code": "166",
+   "aph": "MCO",
+   "description": "Marquage de continuité",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-MARQ-CONTINUIT",
+   "type": "g"
+  },
+  {
+   "code": "167",
+   "aph": "MAG",
+   "description": "Marquage de guidage",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-MARQ-GUIDAGE",
+   "type": "g"
+  },
+  {
+   "code": "168",
+   "aph": "MAC",
+   "description": "Marquage simple continu / Ligne de rive",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-MARQ-SIMP-CONT",
+   "type": "g"
+  },
+  {
+   "code": "169",
+   "aph": "MAD",
+   "description": "Marquage axial simple discontinue",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-MARQ-DISCONTIN",
+   "type": "g"
+  },
+  {
+   "code": "170",
+   "aph": "ANB",
+   "description": "Bord d'accotement non pavé",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-ACCOT-NONPAVE",
+   "type": "g",
+   "motscles": "Accotement non pavé, bord"
+  },
+  {
+   "code": "171",
+   "aph": "MVR",
+   "description": "Marquage de voie réservée",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-MARQ-VOI-RESER",
+   "type": "g"
+  },
+  {
+   "code": "172",
+   "aph": "FPP",
+   "description": "Fût de panneau publicitaire",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-PANN-PUBLICITA",
+   "type": "g"
+  },
+  {
+   "code": "173",
+   "aph": "PAN",
+   "description": "Bord de panneau de signalisation (routière et autres)",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-PANNEAU",
+   "type": "g",
+   "motscles": "Panneau signalisation, bord (routière & autres)"
+  },
+  {
+   "code": "174",
+   "aph": "MPI",
+   "description": "Flèche directionnelle sur chaussée (symbole ou pictogramme)",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-MARQ-PICTOGRAM",
+   "type": "g",
+   "motscles": "Flèche directionnelle sur chaussée (symbole)"
+  },
+  {
+   "code": "175",
+   "aph": "PAC",
+   "description": "Centre de pavage",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-PAVAGE-CENTRE",
+   "type": "g",
+   "motscles": "Pavage, centre"
+  },
+  {
+   "code": "176",
+   "aph": "GRC",
+   "description": "Centre de gravier",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GRAVIER-CENTRE",
+   "type": "g",
+   "motscles": "Gravier, centre"
+  },
+  {
+   "code": "177",
+   "aph": "VFC",
+   "description": "Voie ferrée (centre)",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-VOIE",
+   "type": "g",
+   "motscles": "Voie ferrée, centre"
+  },
+  {
+   "code": "178",
+   "aph": "RBI",
+   "description": "Rail (bord intérieur)",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-RAIL",
+   "type": "g"
+  },
+  {
+   "code": "179",
+   "aph": "PST",
+   "description": "Parapet sur structure",
+   "categorie": "Structures",
+   "couche": "C-STR-PARAPET",
+   "type": "g"
+  },
+  {
+   "code": "180",
+   "aph": "ECG",
+   "description": "Entrée, chemin privé en gravier",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-ENTREE-GRAVIER",
+   "type": "g"
+  },
+  {
+   "code": "181",
+   "aph": "PAB",
+   "description": "Bord de pavage (béton ou asphalte)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-PAVAGE-BORD",
+   "type": "g",
+   "motscles": "Pavage, bord (béton ou asphalte)"
+  },
+  {
+   "code": "182",
+   "aph": "GRB",
+   "description": "Bord de gravier",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GRAVIER-BORD",
+   "type": "g",
+   "motscles": "Gravier, bord"
+  },
+  {
+   "code": "183",
+   "aph": "ECP",
+   "description": "Entrée, chemin privé pavé",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-ENTREE-PAVE",
+   "type": "g"
+  },
+  {
+   "code": "184",
+   "aph": "GNI",
+   "description": "Glissière non-identifié (face)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-NON-ID",
+   "type": "g"
+  },
+  {
+   "code": "185",
+   "aph": "BOR",
+   "description": "Bord de bordure",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-TROTTOI-BORDUR",
+   "type": "g",
+   "motscles": "Bordure, bord"
+  },
+  {
+   "code": "186",
+   "aph": "APB",
+   "description": "Bord d'accotement pavé",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-ACCOT-PAVE",
+   "type": "g",
+   "motscles": "Accotement pavé, bord"
+  },
+  {
+   "code": "187",
+   "aph": "TRO",
+   "description": "Bord de trottoir",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-TROTTOI-BORDUR",
+   "type": "g",
+   "motscles": "Trottoir, bord"
+  },
+  {
+   "code": "188",
+   "aph": "SEM",
+   "description": "Semelle",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "g"
+  },
+  {
+   "code": "189",
+   "aph": "PON",
+   "description": "Pont (tablier)",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "g"
+  },
+  {
+   "code": "190",
+   "aph": "CUL",
+   "description": "Culée de pont, de pont d'étagement, de passerelle",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "g",
+   "motscles": "Culée; pont, pont d'étagement, passerelle"
+  },
+  {
+   "code": "191",
+   "aph": "GTB",
+   "description": "Glissière en tôle ondulée, poteau de bois (face)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-TOL-BO",
+   "type": "g"
+  },
+  {
+   "code": "192",
+   "aph": "GTA",
+   "description": "Glissière en tôle ondulée, poteau d'acier (face)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-TOL-AC",
+   "type": "g"
+  },
+  {
+   "code": "193",
+   "aph": "GBD",
+   "description": "Glissière de béton à deux faces (centre)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-BET-2F",
+   "type": "g",
+   "motscles": "Glissière de béton à 2 faces (centre)"
+  },
+  {
+   "code": "194",
+   "aph": "GCA",
+   "description": "Glissière en câbles, poteau d'acier (face)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-CAB-AC",
+   "type": "g"
+  },
+  {
+   "code": "195",
+   "aph": "TTP",
+   "description": "Tuyau en thermoplastique",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PONCEAU",
+   "type": "g"
+  },
+  {
+   "code": "196",
+   "aph": "TBA",
+   "description": "Tuyau en béton armé",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PONCEAU",
+   "type": "g",
+   "motscles": "Tuyau en béton armé ( TBA )"
+  },
+  {
+   "code": "197",
+   "aph": "TTO",
+   "description": "Tuyau en tôle ondulée",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PONCEAU",
+   "type": "g",
+   "motscles": "Tuyau en tôle ondulée ( TTO )"
+  },
+  {
+   "code": "198",
+   "aph": "BPR",
+   "description": "Borne de protection",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-PROTECTION",
+   "type": "g",
+   "motscles": "Borne de protection (Bolard)"
+  },
+  {
+   "code": "199",
+   "aph": "PBA",
+   "description": "Ponceau rect en béton armé",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PONCEAU",
+   "type": "g"
+  },
+  {
+   "code": "200",
+   "aph": "BRR",
+   "description": "Barrière de clôture (tous types)",
+   "categorie": "Information Foncière",
+   "couche": "C-FON-CLOTURE",
+   "type": "g",
+   "motscles": "Clôture, barrière (tous types)"
+  },
+  {
+   "code": "201",
+   "aph": "GBU",
+   "description": "Glissière de béton à une face (bas)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-BET-1F",
+   "type": "g",
+   "motscles": "Glissière de béton à 1 face (bas)"
+  },
+  {
+   "code": "202",
+   "aph": "GCB",
+   "description": "Glissière en câbles, poteau de bois (face)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-CAB-BO",
+   "type": "g"
+  },
+  {
+   "code": "203",
+   "aph": "GTU",
+   "description": "Glissière en tube d'acier, poteau d'acier (face)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-TUB-AC",
+   "type": "g"
+  },
+  {
+   "code": "204",
+   "aph": "BUS",
+   "description": "Buse (extrémité d'un tuyau levé à sa partie supérieure)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-BUSE",
+   "type": "g",
+   "motscles": "Buse (extrémité du tuyau levé sur le top)"
+  },
+  {
+   "code": "205",
+   "aph": "PNI",
+   "description": "Poteau non-identifié (levé photo)",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-TEL-NON-ID",
+   "type": "g"
+  },
+  {
+   "code": "206",
+   "aph": "LAC",
+   "description": "Lanterne clignotante",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-FEUX",
+   "type": "g"
+  },
+  {
+   "code": "207",
+   "aph": "BOD",
+   "description": "Boucle de détection",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-FEUX",
+   "type": "g"
+  },
+  {
+   "code": "208",
+   "aph": "PUV",
+   "description": "Puits de ventilation",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-TEL-SOUT",
+   "type": "g"
+  },
+  {
+   "code": "209",
+   "aph": "RCE",
+   "description": "Repère de câble électrique souterrain",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-SOUTER",
+   "type": "g"
+  },
+  {
+   "code": "210",
+   "aph": "LPO",
+   "description": "Lampadaire à potence (sur poteau de bois sans services publics)",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-ECLAIRAGE",
+   "type": "g",
+   "motscles": "Lamp. à potence (sur poteau bois sans services publics)"
+  },
+  {
+   "code": "211",
+   "aph": "POE",
+   "description": "Poteau, électricité",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC",
+   "type": "g"
+  },
+  {
+   "code": "212",
+   "aph": "POT",
+   "description": "Poteau, téléphone",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL",
+   "type": "g"
+  },
+  {
+   "code": "213",
+   "aph": "PET",
+   "description": "Poteau, électricité, téléphone",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-TEL",
+   "type": "g"
+  },
+  {
+   "code": "214",
+   "aph": "POG",
+   "description": "Poteau guide",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-TEL-HAUBAN",
+   "type": "g"
+  },
+  {
+   "code": "215",
+   "aph": "PTR",
+   "description": "Poteau, électricité, transformateur",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC",
+   "type": "g"
+  },
+  {
+   "code": "216",
+   "aph": "PTT",
+   "description": "Poteau, électricité, téléphone, transformateur",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-TEL",
+   "type": "g",
+   "motscles": "Poteau, électricité, téléphone, transf."
+  },
+  {
+   "code": "217",
+   "aph": "PEL",
+   "description": "Poteau, électricité, lampadaire",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-LAMPAD",
+   "type": "g"
+  },
+  {
+   "code": "218",
+   "aph": "PTL",
+   "description": "Poteau, électricité, téléphone, lampadaire",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-TEL-LAMP",
+   "type": "g"
+  },
+  {
+   "code": "219",
+   "aph": "PLT",
+   "description": "Poteau, électricité, lampadaire, transformateur",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-LAMPAD",
+   "type": "g",
+   "motscles": "Poteau, électricité, lampadaire, transfor."
+  },
+  {
+   "code": "220",
+   "aph": "PLR",
+   "description": "Poteau, électricité, téléphone, lampadaire, transformateur",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-TEL-LAMP",
+   "type": "g",
+   "motscles": "Poteau, électricité, téléphone, lamp., transf."
+  },
+  {
+   "code": "221",
+   "aph": "HAU",
+   "description": "Hauban",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-TEL-HAUBAN",
+   "type": "g"
+  },
+  {
+   "code": "222",
+   "aph": "MTI",
+   "description": "Massif de tirage",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-SOUTER",
+   "type": "g"
+  },
+  {
+   "code": "223",
+   "aph": "PYL",
+   "description": "Massif d'ancrage de pylône électrique (centre)",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC",
+   "type": "g",
+   "motscles": "Massif d'ancrage de pylône élec. (centre)"
+  },
+  {
+   "code": "224",
+   "aph": "LAS",
+   "description": "Lampadaire simple",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-ECLAIRAGE",
+   "type": "g"
+  },
+  {
+   "code": "225",
+   "aph": "LAD",
+   "description": "Lampadaire double",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-ECLAIRAGE",
+   "type": "g"
+  },
+  {
+   "code": "226",
+   "aph": "LAM",
+   "description": "Lampadaire multiple (haut mât)",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-ECLAIRAGE",
+   "type": "g"
+  },
+  {
+   "code": "227",
+   "aph": "LAP",
+   "description": "Lampadaire de promenade",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-ECLAIRAGE",
+   "type": "g"
+  },
+  {
+   "code": "228",
+   "aph": "LAV",
+   "description": "Feux verticaux",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-FEUX",
+   "type": "g"
+  },
+  {
+   "code": "229",
+   "aph": "LAH",
+   "description": "Feux horizontaux",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-FEUX",
+   "type": "g"
+  },
+  {
+   "code": "230",
+   "aph": "LAL",
+   "description": "Feux avec lampadaire",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-FEUX",
+   "type": "g"
+  },
+  {
+   "code": "231",
+   "aph": "PUC",
+   "description": "Puisard circulaire",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EGOUT-PLUVIAL-ELEMENT",
+   "type": "g"
+  },
+  {
+   "code": "232",
+   "aph": "REG",
+   "description": "Regard de service public non-identifié",
+   "categorie": "Services publics",
+   "couche": "C-SER-REGAR-NON-ID",
+   "type": "g"
+  },
+  {
+   "code": "233",
+   "aph": "RPU",
+   "description": "Regard-puisard",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EGOUT-PLUVIAL-ELEMENT",
+   "type": "g"
+  },
+  {
+   "code": "234",
+   "aph": "PRP",
+   "description": "Puisard rectangulaire 350x600",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EGOUT-PLUVIAL-ELEMENT",
+   "type": "g"
+  },
+  {
+   "code": "235",
+   "aph": "FOS",
+   "description": "Fosse septique",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "236",
+   "aph": "PUI",
+   "description": "Puits",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "237",
+   "aph": "LPI",
+   "description": "Feux pour piétons",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-FEUX",
+   "type": "g"
+  },
+  {
+   "code": "238",
+   "aph": "BOF",
+   "description": "Borne-fontaine",
+   "categorie": "Services publics",
+   "couche": "C-SER-AQUEDUC-ELEMENT",
+   "type": "g"
+  },
+  {
+   "code": "239",
+   "aph": "BIM",
+   "description": "Borne d'injection de mousse carbonique",
+   "categorie": "Services publics",
+   "couche": "C-SER-MOUSSE-CARBONI",
+   "type": "g"
+  },
+  {
+   "code": "240",
+   "aph": "VAQ",
+   "description": "Valve d'aqueduc",
+   "categorie": "Services publics",
+   "couche": "C-SER-AQUEDUC-ELEMENT",
+   "type": "g",
+   "motscles": "Aqueduc (valve)"
+  },
+  {
+   "code": "241",
+   "aph": "PRR",
+   "description": "Puisard/Regard fond",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EGOUT-PLUVIAL-ELEMENT",
+   "type": "g",
+   "motscles": "Puisard-Regard fond"
+  },
+  {
+   "code": "242",
+   "aph": "RCT",
+   "description": "Repère de câble téléphonique souterrain",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL-SOUTER",
+   "type": "g"
+  },
+  {
+   "code": "243",
+   "aph": "RGZ",
+   "description": "Repère de gazoduc",
+   "categorie": "Services publics",
+   "couche": "C-SER-GAZODUC",
+   "type": "g",
+   "motscles": "Gazoduc (Repère)"
+  },
+  {
+   "code": "244",
+   "aph": "IPN",
+   "description": "Indicateur de passage à niveau",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-ACCESSOIRE",
+   "type": "g",
+   "motscles": "Passage à niveau, indicateur"
+  },
+  {
+   "code": "245",
+   "aph": "LPN",
+   "description": "Lanterne de passage à niveau",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-ACCESSOIRE",
+   "type": "g",
+   "motscles": "Passage à niveau, Lanterne"
+  },
+  {
+   "code": "246",
+   "aph": "BPN",
+   "description": "Barrière de passage à niveau",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-ACCESSOIRE",
+   "type": "g",
+   "motscles": "Passage à niveau, barrière"
+  },
+  {
+   "code": "247",
+   "aph": "AVF",
+   "description": "Aiguillage de voie ferrée",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-ACCESSOIRE",
+   "type": "g",
+   "motscles": "Voie ferrée, Aiguillage"
+  },
+  {
+   "code": "248",
+   "aph": "BJE",
+   "description": "Boite de jonction / distribution électrique",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC",
+   "type": "g",
+   "motscles": "Boite de jonction / distribution élect."
+  },
+  {
+   "code": "249",
+   "aph": "PTG",
+   "description": "Poteau de télégraphe",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC",
+   "type": "g"
+  },
+  {
+   "code": "250",
+   "aph": "TES",
+   "description": "Transformateur de ligne électrique souterraine",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-SOUTER",
+   "type": "g",
+   "motscles": "Transformateur de ligne élect. souterraine"
+  },
+  {
+   "code": "251",
+   "aph": "RAQ",
+   "description": "Regard d'aqueduc",
+   "categorie": "Services publics",
+   "couche": "C-SER-AQUEDUC-ELEMENT",
+   "type": "g",
+   "motscles": "Aqueduc (Regard)"
+  },
+  {
+   "code": "252",
+   "aph": "REC",
+   "description": "Regard d'égout combiné",
+   "categorie": "Services publics",
+   "couche": "C-SER-EGOUT-COMBINE-ELEMENT",
+   "type": "g"
+  },
+  {
+   "code": "253",
+   "aph": "BJT",
+   "description": "Boite de jonction/distribution téléphonique",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL",
+   "type": "g",
+   "motscles": "Boite de jonction/distribution téléph."
+  },
+  {
+   "code": "254",
+   "aph": "BOP",
+   "description": "Boite postale",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "255",
+   "aph": "DEB",
+   "description": "Débarcadère",
+   "categorie": "Structures",
+   "couche": "C-STR-DEBARCADERE",
+   "type": "d"
+  },
+  {
+   "code": "256",
+   "aph": "GAZ",
+   "description": "Gazoduc",
+   "categorie": "Services publics",
+   "couche": "C-SER-GAZODUC",
+   "type": "d"
+  },
+  {
+   "code": "257",
+   "aph": "REP",
+   "description": "Regard d'égout pluvial",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EGOUT-PLUVIAL-ELEMENT",
+   "type": "d"
+  },
+  {
+   "code": "258",
+   "aph": "REE",
+   "description": "Regard de chambre électrique souterraine",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-SOUTER",
+   "type": "d"
+  },
+  {
+   "code": "259",
+   "aph": "RET",
+   "description": "Regard de chambre téléphonique souterraine",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL-SOUTER",
+   "type": "d",
+   "motscles": "Regard de chambre téléph. souterraine"
+  },
+  {
+   "code": "260",
+   "aph": "RES",
+   "description": "Regard d'égout sanitaire",
+   "categorie": "Services publics",
+   "couche": "C-SER-EGOUT-SANITAIR-ELEMENT",
+   "type": "d"
+  },
+  {
+   "code": "261",
+   "aph": "RGA",
+   "description": "Regard de gazoduc",
+   "categorie": "Services publics",
+   "couche": "C-SER-GAZODUC",
+   "type": "d",
+   "motscles": "Gazoduc (Regard)"
+  },
+  {
+   "code": "262",
+   "aph": "OLE",
+   "description": "Oléoduc",
+   "categorie": "Services publics",
+   "couche": "C-SER-OLEODUC",
+   "type": "d"
+  },
+  {
+   "code": "263",
+   "aph": "REO",
+   "description": "Repère d'oléoduc",
+   "categorie": "Services publics",
+   "couche": "C-SER-OLEODUC",
+   "type": "d",
+   "motscles": "Oléoduc (Repère)"
+  },
+  {
+   "code": "264",
+   "aph": "SON",
+   "description": "Sondage géotechnique",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-SONDAGE",
+   "type": "d"
+  },
+  {
+   "code": "265",
+   "aph": "CAE",
+   "description": "Caniveau à cables électrique",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-SOUTER",
+   "type": "d"
+  },
+  {
+   "code": "266",
+   "aph": "PRG",
+   "description": "Puisard rectangulaire 450x900",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EGOUT-PLUVIAL-ELEMENT",
+   "type": "d"
+  },
+  {
+   "code": "267",
+   "aph": "BRG",
+   "description": "Bande rugueuse",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-BANDE",
+   "type": "d"
+  },
+  {
+   "code": "268",
+   "aph": "CAQ",
+   "description": "Chambre d'aqueduc",
+   "categorie": "Services publics",
+   "couche": "C-SER-AQUEDUC-ELEMENT",
+   "type": "d",
+   "motscles": "Aqueduc (chambre)"
+  },
+  {
+   "code": "280",
+   "aph": "ARC",
+   "description": "Arbre conifère",
+   "categorie": "Végétation",
+   "couche": "C-VEG-ARBRE",
+   "type": "d"
+  },
+  {
+   "code": "281",
+   "aph": "ARF",
+   "description": "Arbre feuillu",
+   "categorie": "Végétation",
+   "couche": "C-VEG-ARBRE",
+   "type": "d"
+  },
+  {
+   "code": "282",
+   "aph": "ARB",
+   "description": "Arbuste",
+   "categorie": "Végétation",
+   "couche": "C-VEG-ARBRE",
+   "type": "d"
+  },
+  {
+   "code": "283",
+   "aph": "MAR",
+   "description": "Bord de marécage",
+   "categorie": "Végétation",
+   "couche": "C-VEG-MARECAGE",
+   "type": "d",
+   "motscles": "Marécage, bord"
+  },
+  {
+   "code": "286",
+   "aph": "DRA",
+   "description": "Drainage agricole",
+   "categorie": "Draînage",
+   "couche": "C-DRA-AGRICOLE",
+   "type": "d"
+  },
+  {
+   "code": "287",
+   "aph": "BAG",
+   "description": "Barrage",
+   "categorie": "Structures",
+   "couche": "C-STR-BARRAGE",
+   "type": "d"
+  },
+  {
+   "code": "288",
+   "aph": "PAS",
+   "description": "Passerelle (tablier)",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "d"
+  },
+  {
+   "code": "289",
+   "aph": "EMP",
+   "description": "Empilement (tas, matériaux, etc.)",
+   "categorie": "Topographie",
+   "couche": "C-TOP-EMPILEMENT",
+   "type": "d"
+  },
+  {
+   "code": "290",
+   "aph": "EPR",
+   "description": "Empierrement anti-érosion",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PROTECTION",
+   "type": "d"
+  },
+  {
+   "code": "295",
+   "aph": "CTA",
+   "description": "Câble téléphonique aérien",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL",
+   "type": "d"
+  },
+  {
+   "code": "296",
+   "aph": "CEA",
+   "description": "Câble électrique aérien",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-TEL-AERIEN",
+   "type": "d"
+  },
+  {
+   "code": "298",
+   "aph": "DIV",
+   "description": "Divers",
+   "categorie": "Topographie",
+   "couche": "C-TOP-DIVERS",
+   "type": "d"
+  },
+  {
+   "code": "299",
+   "aph": "PCT",
+   "description": "Point calculé sur le terrain",
+   "categorie": "Géométrie",
+   "couche": "C-GEO-POINT-CALCUL",
+   "type": "d"
+  },
+  {
+   "code": "300",
+   "aph": "PCB",
+   "description": "Point calculé dans le bureau",
+   "categorie": "Géométrie",
+   "couche": "C-GEO-POINT-CALCUL",
+   "type": "d"
+  },
+  {
+   "code": "301",
+   "aph": "PCC",
+   "description": "Point calculé pour cadastre",
+   "categorie": "Géométrie",
+   "couche": "C-GEO-POINT-CALCUL",
+   "type": "d"
+  },
+  {
+   "code": "347",
+   "aph": "PAE",
+   "description": "Palier limite extérieur",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-PALIER-EXT",
+   "type": "d"
+  },
+  {
+   "code": "348",
+   "aph": "PAI",
+   "description": "Palier limite intérieur",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-PALIER-INT",
+   "type": "d"
+  },
+  {
+   "code": "349",
+   "aph": "PDR",
+   "description": "Prédécoupage roc",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-PREDECOUP-ROC",
+   "type": "d"
+  },
+  {
+   "code": "350",
+   "aph": "TNA",
+   "description": "Terrain naturel à jour",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-INITIAL",
+   "type": "d"
+  },
+  {
+   "code": "351",
+   "aph": "TVG",
+   "description": "Terre Végétale",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-INITIAL",
+   "type": "d"
+  },
+  {
+   "code": "352",
+   "aph": "ROS",
+   "description": "Roc en surface",
+   "categorie": "Infrastructure routière",
+   "couche": "C-TOP-ROC-EN-SURFACE",
+   "type": "d"
+  },
+  {
+   "code": "353",
+   "aph": "SAV",
+   "description": "Savane",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-INITIAL",
+   "type": "d"
+  },
+  {
+   "code": "354",
+   "aph": "SOI",
+   "description": "Sol initial",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-INITIAL",
+   "type": "d"
+  },
+  {
+   "code": "355",
+   "aph": "ROI",
+   "description": "Roc initial",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-INITIAL",
+   "type": "d"
+  },
+  {
+   "code": "356",
+   "aph": "SOF",
+   "description": "Sol final, tel que construit",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FINAL",
+   "type": "d"
+  },
+  {
+   "code": "357",
+   "aph": "ROF",
+   "description": "Roc final, tel que construit",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FINAL",
+   "type": "d"
+  },
+  {
+   "code": "358",
+   "aph": "SEF",
+   "description": "Surface de conception finale, tel que construit",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FINAL",
+   "type": "d"
+  },
+  {
+   "code": "359",
+   "aph": "SPR",
+   "description": "Sous-profil, tel que construit",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FINAL",
+   "type": "d"
+  },
+  {
+   "code": "360",
+   "aph": "RER",
+   "description": "Dessous de revêtement de roulement, tel que construit",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FINAL",
+   "type": "d"
+  },
+  {
+   "code": "361",
+   "aph": "REB",
+   "description": "Dessous de revêtement de base, tel que construit",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FINAL",
+   "type": "d"
+  },
+  {
+   "code": "362",
+   "aph": "FND",
+   "description": "Ligne de fondation ou fondation supérieure, tel que construit",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FINAL",
+   "type": "d"
+  },
+  {
+   "code": "363",
+   "aph": "FIN",
+   "description": "Ligne de fondation inférieure / couche de transition, tel que construit",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FINAL",
+   "type": "d"
+  },
+  {
+   "code": "364",
+   "aph": "SFO",
+   "description": "Ligne de sous-fondation, tel que construit",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FINAL",
+   "type": "d"
+  },
+  {
+   "code": "365",
+   "aph": "INF",
+   "description": "Ligne d'infrastructure, tel que construit",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-FINAL",
+   "type": "d"
+  },
+  {
+   "code": "366",
+   "aph": "PEP",
+   "description": "Pièce d'extrémité de ponceau",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PONCEAU",
+   "type": "d",
+   "motscles": "Ponceau (pièce d'extrémité)"
+  },
+  {
+   "code": "367",
+   "aph": "GDC",
+   "description": "Glissière à 2 câbles, poteaux d'acier",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-CAB-AC-2F",
+   "type": "d"
+  },
+  {
+   "code": "368",
+   "aph": "GDF",
+   "description": "Glissière à 2 faces en tôle ondulée, poteau d'acier",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-TOL-AC-2F",
+   "type": "d"
+  },
+  {
+   "code": "369",
+   "aph": "CAM",
+   "description": "Caméra-vidéo",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-ACCESSOIRE",
+   "type": "d"
+  },
+  {
+   "code": "370",
+   "aph": "CTR",
+   "description": "Capteur",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-ACCESSOIRE",
+   "type": "d"
+  },
+  {
+   "code": "371",
+   "aph": "CMR",
+   "description": "Compteur",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-ACCESSOIRE",
+   "type": "d"
+  },
+  {
+   "code": "372",
+   "aph": "DTR",
+   "description": "Détecteur",
+   "categorie": "Signalisation et éclairage",
+   "couche": "C-SIG-ACCESSOIRE",
+   "type": "d"
+  },
+  {
+   "code": "380",
+   "aph": "CES",
+   "description": "Câble électrique souterrain",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-SOUTER",
+   "type": "d"
+  },
+  {
+   "code": "381",
+   "aph": "EXC",
+   "description": "Excavation",
+   "categorie": "Infrastructure routière",
+   "couche": "C-TOP-EXCAVATION",
+   "type": "d"
+  },
+  {
+   "code": "382",
+   "aph": "PUA",
+   "description": "Pieu autre",
+   "categorie": "Structures",
+   "couche": "C-STR-PIEU",
+   "type": "d"
+  },
+  {
+   "code": "383",
+   "aph": "PUF",
+   "description": "Pieu de fondation",
+   "categorie": "Structures",
+   "couche": "C-STR-PIEU",
+   "type": "d"
+  },
+  {
+   "code": "384",
+   "aph": "ANC",
+   "description": "Ancrage",
+   "categorie": "Structures",
+   "couche": "C-STR-ANCRAGE",
+   "type": "d"
+  },
+  {
+   "code": "385",
+   "aph": "JER",
+   "description": "Jersey (mur séparateur)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-GLI-BET-2F",
+   "type": "d"
+  },
+  {
+   "code": "386",
+   "aph": "POP",
+   "description": "Poutre",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "d"
+  },
+  {
+   "code": "387",
+   "aph": "COF",
+   "description": "Coffrage",
+   "categorie": "Structures",
+   "couche": "C-STR-COFFRAGE",
+   "type": "d"
+  },
+  {
+   "code": "388",
+   "aph": "ARM",
+   "description": "Armature",
+   "categorie": "Structures",
+   "couche": "C-STR-ARMATURE",
+   "type": "d"
+  },
+  {
+   "code": "389",
+   "aph": "ARA",
+   "description": "Armature en attente",
+   "categorie": "Structures",
+   "couche": "C-STR-ARMATURE",
+   "type": "d"
+  },
+  {
+   "code": "390",
+   "aph": "POS",
+   "description": "Pieux OCS",
+   "categorie": "Structures",
+   "couche": "C-STR-PIEU",
+   "type": "d"
+  },
+  {
+   "code": "391",
+   "aph": "TAC",
+   "description": "Tube d'acier (OCS)",
+   "categorie": "Structures",
+   "couche": "C-STR-PIEU",
+   "type": "d"
+  },
+  {
+   "code": "392",
+   "aph": "MAT",
+   "description": "Mise-à-la-terre (MALT)",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC",
+   "type": "d"
+  },
+  {
+   "code": "393",
+   "aph": "TSI",
+   "description": "Trait de Scie",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-DIVERS",
+   "type": "d"
+  },
+  {
+   "code": "394",
+   "aph": "DAT",
+   "description": "Dalle de transition",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "d"
+  },
+  {
+   "code": "395",
+   "aph": "CHR",
+   "description": "Chambre de regard",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  },
+  {
+   "code": "396",
+   "aph": "FUT",
+   "description": "Fût",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "d"
+  },
+  {
+   "code": "397",
+   "aph": "GFO",
+   "description": "Garde fou",
+   "categorie": "Infrastructure routière",
+   "couche": "C-STR-PARAPET",
+   "type": "d"
+  },
+  {
+   "code": "398",
+   "aph": "GAG",
+   "description": "Garde grêve",
+   "categorie": "Structures",
+   "couche": "C-STR-PARAPET",
+   "type": "d"
+  },
+  {
+   "code": "399",
+   "aph": "JOF",
+   "description": "Joint fixe",
+   "categorie": "Structures",
+   "couche": "C-STR-JOINT",
+   "type": "d"
+  },
+  {
+   "code": "400",
+   "aph": "POC",
+   "description": "Point de contrôle (autre que clou, tiges)",
+   "categorie": "Repères",
+   "couche": "C-REP-CHEMINEMENT",
+   "type": "d"
+  },
+  {
+   "code": "401",
+   "aph": "SPD",
+   "description": "Pied d'ancrage (spud)",
+   "categorie": "Structures",
+   "couche": "C-STR-ANCRAGE",
+   "type": "d"
+  },
+  {
+   "code": "402",
+   "aph": "FOR",
+   "description": "Forage",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-SONDAGE",
+   "type": "d"
+  },
+  {
+   "code": "403",
+   "aph": "DRV",
+   "description": "Drain vertical",
+   "categorie": "Draînage",
+   "couche": "C-DRA-DRAIN",
+   "type": "d"
+  },
+  {
+   "code": "404",
+   "aph": "PAL",
+   "description": "Palplanche",
+   "categorie": "Infrastructure routière",
+   "couche": "C-STR-PALPLANCHE",
+   "type": "d"
+  },
+  {
+   "code": "405",
+   "aph": "LCL",
+   "description": "Centre ligne",
+   "categorie": "Géométrie",
+   "couche": "C-GEO-LIGNE-REFERENC",
+   "type": "d"
+  },
+  {
+   "code": "406",
+   "aph": "AXE",
+   "description": "Axe",
+   "categorie": "Géométrie",
+   "couche": "C-GEO-LIGNE-REFERENC",
+   "type": "d"
+  },
+  {
+   "code": "407",
+   "aph": "MCR",
+   "description": "Main courante",
+   "categorie": "Structures",
+   "couche": "C-STR-PARAPET",
+   "type": "d"
+  },
+  {
+   "code": "408",
+   "aph": "REL",
+   "description": "Remblai léger",
+   "categorie": "Infrastructure routière",
+   "couche": "C-TOP-DIVERS",
+   "type": "d"
+  },
+  {
+   "code": "409",
+   "aph": "PIZ",
+   "description": "Piézomètre (pz)",
+   "categorie": "Draînage",
+   "couche": "C-MOD-SONDAGE",
+   "type": "d"
+  },
+  {
+   "code": "410",
+   "aph": "STT",
+   "description": "Station temporaire",
+   "categorie": "Repères",
+   "couche": "C-REP-CHEMINEMENT",
+   "type": "d"
+  },
+  {
+   "code": "411",
+   "aph": "RAD",
+   "description": "Radier",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PONCEAU",
+   "type": "g"
+  },
+  {
+   "code": "412",
+   "aph": "DST",
+   "description": "Drainage de structure",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EGOUT-PLUVIAL",
+   "type": "g"
+  },
+  {
+   "code": "413",
+   "aph": "EAB",
+   "description": "Écran anti-bruit",
+   "categorie": "Bâtiment",
+   "couche": "C-STR-MUR-ANTI_BRUIT",
+   "type": "g",
+   "motscles": "Ecran anti-bruit"
+  },
+  {
+   "code": "414",
+   "aph": "GCP",
+   "description": "Garde corps",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "g"
+  },
+  {
+   "code": "415",
+   "aph": "MEG",
+   "description": "Membrane géotextile",
+   "categorie": "Draînage",
+   "couche": "C-MOD-GEOTEXTILE",
+   "type": "g"
+  },
+  {
+   "code": "416",
+   "aph": "PPT",
+   "description": "Plaque podotactile",
+   "categorie": "Structures",
+   "couche": "C-VOI-DIVERS",
+   "type": "d"
+  },
+  {
+   "code": "417",
+   "aph": "PDT",
+   "description": "Plaque de tassement",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-SONDAGE",
+   "type": "g"
+  },
+  {
+   "code": "418",
+   "aph": "BSE",
+   "description": "Barrière sédimentation",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PROTECTION",
+   "type": "g",
+   "motscles": "Barrière de sédimentation"
+  },
+  {
+   "code": "419",
+   "aph": "CHA",
+   "description": "Chaînage",
+   "categorie": "Géométrie",
+   "couche": "C-GEO-LIGNE-REFERENC",
+   "type": "g"
+  },
+  {
+   "code": "420",
+   "aph": "GRH",
+   "description": "Grille horizontale",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  },
+  {
+   "code": "421",
+   "aph": "PAR",
+   "description": "Parafouille",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PONCEAU",
+   "type": "g"
+  },
+  {
+   "code": "422",
+   "aph": "PLA",
+   "description": "Plaque d'appui",
+   "categorie": "Structures",
+   "couche": "C-STR-APPUI",
+   "type": "g"
+  },
+  {
+   "code": "423",
+   "aph": "ANP",
+   "description": "Plaque d'ancrage (Mur Rideau)",
+   "categorie": "Structures",
+   "couche": "C-STR-PLAQUE-ANCRAGE",
+   "type": "g"
+  },
+  {
+   "code": "424",
+   "aph": "MCS",
+   "description": "Manchon (Sleeves)",
+   "categorie": "Services publics",
+   "couche": "C-SER-MANCHON",
+   "type": "g"
+  },
+  {
+   "code": "425",
+   "aph": "CON",
+   "description": "Conduit électrique",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC-CONDUIT",
+   "type": "g"
+  },
+  {
+   "code": "426",
+   "aph": "PLQ",
+   "description": "Plaque de liaison…",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d",
+   "motscles": "Plaque horizontale (plaque de liaison…)"
+  },
+  {
+   "code": "428",
+   "aph": "BET",
+   "description": "Béton",
+   "categorie": "Topographie",
+   "couche": "C-STR-PONT",
+   "type": "g"
+  },
+  {
+   "code": "429",
+   "aph": "APA",
+   "description": "Appareil d'appui",
+   "categorie": "Structures",
+   "couche": "C-STR-APPUI",
+   "type": "g"
+  },
+  {
+   "code": "430",
+   "aph": "TNN",
+   "description": "Terrain initial",
+   "categorie": "Topographie",
+   "couche": "C-MOD-INITIAL",
+   "type": "g"
+  },
+  {
+   "code": "435",
+   "aph": "PYL",
+   "description": "Pylone",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC",
+   "type": "g"
+  },
+  {
+   "code": "436",
+   "aph": "BLB",
+   "description": "Bloc béton",
+   "categorie": "Structures",
+   "couche": "C-STR-BLOC-BETON",
+   "type": "g"
+  },
+  {
+   "code": "437",
+   "aph": "COB",
+   "description": "Cobra (type de forage)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-SONDAGE",
+   "type": "g"
+  },
+  {
+   "code": "438",
+   "aph": "PCA",
+   "description": "Poteau caténaire",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "440",
+   "aph": "SCI",
+   "description": "Scissomètre",
+   "categorie": "Infrastructure routière",
+   "couche": "C-FER-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "441",
+   "aph": "TPE",
+   "description": "Trou de percolation",
+   "categorie": "Infrastructure routière",
+   "couche": "C-MOD-SONDAGE",
+   "type": "g"
+  },
+  {
+   "code": "442",
+   "aph": "GOU",
+   "description": "Gousset",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "g"
+  },
+  {
+   "code": "443",
+   "aph": "TOB",
+   "description": "Tube d'observation",
+   "categorie": "Draînage",
+   "couche": "C-MOD-SONDAGE",
+   "type": "g"
+  },
+  {
+   "code": "444",
+   "aph": "DIF",
+   "description": "Divers (ferroviare)",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "446",
+   "aph": "MUA",
+   "description": "Mur anti-bruit",
+   "categorie": "Bâtiment",
+   "couche": "C-STR-MUR-ANTI_BRUIT",
+   "type": "g"
+  },
+  {
+   "code": "447",
+   "aph": "MUF",
+   "description": "Mur de front",
+   "categorie": "Bâtiment",
+   "couche": "C-STR-PONT",
+   "type": "g"
+  },
+  {
+   "code": "448",
+   "aph": "PNT",
+   "description": "Pont",
+   "categorie": "Structures",
+   "couche": "C-STR-PONT",
+   "type": "g"
+  },
+  {
+   "code": "449",
+   "aph": "TRA",
+   "description": "Trou d'arpentage",
+   "categorie": "Repères",
+   "couche": "C-STR-TROU_ARPENTAGE",
+   "type": "g"
+  },
+  {
+   "code": "450",
+   "aph": "TUN",
+   "description": "Tunnel",
+   "categorie": "Structures",
+   "couche": "C-STR-TUNNEL",
+   "type": "g"
+  },
+  {
+   "code": "451",
+   "aph": "VIA",
+   "description": "Viaduc",
+   "categorie": "Structures",
+   "couche": "C-STR-VIADUC",
+   "type": "g"
+  },
+  {
+   "code": "452",
+   "aph": "VOU",
+   "description": "Voûte",
+   "categorie": "Structures",
+   "couche": "C-STR-VOUTE",
+   "type": "g"
+  },
+  {
+   "code": "453",
+   "aph": "DIS",
+   "description": "Divers (structure)",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "g"
+  },
+  {
+   "code": "454",
+   "aph": "SUR",
+   "description": "Sur-excavation",
+   "categorie": "Infrastructure routière",
+   "couche": "C-TOP-EXCAVATION",
+   "type": "g"
+  },
+  {
+   "code": "455",
+   "aph": "BOC",
+   "description": "Borne commune",
+   "categorie": "Repères",
+   "couche": "C-SER-DIVERS",
+   "type": "g"
+  },
+  {
+   "code": "456",
+   "aph": "BOG",
+   "description": "Boite de Gaz",
+   "categorie": "Services publics",
+   "couche": "C-SER-GAZODUC",
+   "type": "g",
+   "motscles": "Gaz, boite"
+  },
+  {
+   "code": "457",
+   "aph": "BOH",
+   "description": "Boite HQ",
+   "categorie": "Services publics",
+   "couche": "C-SER-ELEC",
+   "type": "g"
+  },
+  {
+   "code": "458",
+   "aph": "BOV",
+   "description": "Boite Fibre optique internet",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL",
+   "type": "g"
+  },
+  {
+   "code": "459",
+   "aph": "CIA",
+   "description": "Câble internet aérien",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL-AERIEN-FO",
+   "type": "g"
+  },
+  {
+   "code": "460",
+   "aph": "CIS",
+   "description": "Câble internet souterrain",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL-SOUTER-FO",
+   "type": "g"
+  },
+  {
+   "code": "461",
+   "aph": "COG",
+   "description": "Conduite Gazoduc souterrain",
+   "categorie": "Services publics",
+   "couche": "C-SER-GAZODUC-SOUTER",
+   "type": "g",
+   "motscles": "Gazoduc souterrain (Conduite)"
+  },
+  {
+   "code": "462",
+   "aph": "COO",
+   "description": "Conduite Oléoduc souterrain",
+   "categorie": "Services publics",
+   "couche": "C-SER-OLEODUC SOUTER",
+   "type": "g",
+   "motscles": "Oléoduc souterrain (Conduite)"
+  },
+  {
+   "code": "463",
+   "aph": "GAF",
+   "description": "Gaine pour Fibre optique",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL-SOUTER-CONDUIT-FO",
+   "type": "g"
+  },
+  {
+   "code": "464",
+   "aph": "PAM",
+   "description": "Parcomètre",
+   "categorie": "Services publics",
+   "couche": "C-SER-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "465",
+   "aph": "RTI",
+   "description": "Regard Fibre Optique",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL",
+   "type": "g"
+  },
+  {
+   "code": "466",
+   "aph": "RPI",
+   "description": "Repère câble fibre optique souterrain",
+   "categorie": "Services publics",
+   "couche": "C-SER-TEL-SOUTER-FO",
+   "type": "g"
+  },
+  {
+   "code": "467",
+   "aph": "RPA",
+   "description": "Repère conduite aqueduc souterrain",
+   "categorie": "Services publics",
+   "couche": "C-SER-AQUEDUC",
+   "type": "g",
+   "motscles": "Aqueduc souterrain (Repère conduite)"
+  },
+  {
+   "code": "468",
+   "aph": "DIU",
+   "description": "Divers (Utilités publique)",
+   "categorie": "Services publics",
+   "couche": "C-SER-DIVERS",
+   "type": "g"
+  },
+  {
+   "code": "469",
+   "aph": "DGB",
+   "description": "Digue bas",
+   "categorie": "Draînage",
+   "couche": "C-DRA-DIGUE",
+   "type": "g",
+   "motscles": "Digue, bas"
+  },
+  {
+   "code": "470",
+   "aph": "DGH",
+   "description": "Digue haut",
+   "categorie": "Draînage",
+   "couche": "C-DRA-DIGUE",
+   "type": "g",
+   "motscles": "Digue, haut"
+  },
+  {
+   "code": "471",
+   "aph": "DRP",
+   "description": "Drain perforé (+diamètre)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-DRAIN",
+   "type": "g"
+  },
+  {
+   "code": "472",
+   "aph": "DRS",
+   "description": "Drain, sortie (exutoire)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-DRAIN",
+   "type": "g"
+  },
+  {
+   "code": "473",
+   "aph": "PPV",
+   "description": "Ponceau P.V.C (+diamètre+rad ou top)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PONCEAU",
+   "type": "g",
+   "motscles": "Ponceau"
+  },
+  {
+   "code": "474",
+   "aph": "PPO",
+   "description": "Poste de pompage",
+   "categorie": "Services publics",
+   "couche": "C-DRA-POSTE-POMPAGE",
+   "type": "g"
+  },
+  {
+   "code": "475",
+   "aph": "PUT",
+   "description": "Puisard de trottoir",
+   "categorie": "Services publics",
+   "couche": "C-DRA-EGOUT-PLUVIAL-ELEMENT",
+   "type": "g"
+  },
+  {
+   "code": "476",
+   "aph": "PUR",
+   "description": "Puisard regard",
+   "categorie": "Services publics",
+   "couche": "C-DRA-EGOUT-PLUVIAL-ELEMENT",
+   "type": "d"
+  },
+  {
+   "code": "477",
+   "aph": "SOU",
+   "description": "Source",
+   "categorie": "Services publics",
+   "couche": "C-DRA-SOURCE",
+   "type": "g"
+  },
+  {
+   "code": "478",
+   "aph": "TPL",
+   "description": "Tuyau de plastique",
+   "categorie": "Draînage",
+   "couche": "C-DRA-PONCEAU",
+   "type": "g"
+  },
+  {
+   "code": "479",
+   "aph": "VAA",
+   "description": "Vanne (autres types)",
+   "categorie": "Services publics",
+   "couche": "C-DRA-ELEMENT",
+   "type": "g"
+  },
+  {
+   "code": "480",
+   "aph": "DID",
+   "description": "Divers (drainage)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-DIVERS",
+   "type": "g"
+  },
+  {
+   "code": "481",
+   "aph": "NIV",
+   "description": "Niveau d'eau",
+   "categorie": "Draînage",
+   "couche": "C-DRA-EAU-JOUR",
+   "type": "g"
+  },
+  {
+   "code": "482",
+   "aph": "RIV",
+   "description": "Rive - Rivage",
+   "categorie": "Draînage",
+   "couche": "C-DRA-RIVE",
+   "type": "g"
+  },
+  {
+   "code": "483",
+   "aph": "RIB",
+   "description": "Rivière (bord)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-RIVIERE-BORD",
+   "type": "g",
+   "motscles": "Rivière, bord"
+  },
+  {
+   "code": "484",
+   "aph": "RIC",
+   "description": "Rivière (centre)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-RIVIERE-CENTRE",
+   "type": "g",
+   "motscles": "Rivière, centre"
+  },
+  {
+   "code": "485",
+   "aph": "RUB",
+   "description": "Ruisseau (bord)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-RIVIERE-BORD",
+   "type": "g",
+   "motscles": "Ruisseau, bord"
+  },
+  {
+   "code": "486",
+   "aph": "RUC",
+   "description": "Ruisseau (centre)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-RIVIERE-CENTRE",
+   "type": "g",
+   "motscles": "Ruisseau, centre"
+  },
+  {
+   "code": "487",
+   "aph": "ZOI",
+   "description": "Zone inondable",
+   "categorie": "Draînage",
+   "couche": "C-DRA-ZONE-INONDABLE",
+   "type": "g"
+  },
+  {
+   "code": "488",
+   "aph": "DIE",
+   "description": "Divers (eaux)",
+   "categorie": "Draînage",
+   "couche": "C-DRA-DIVERS",
+   "type": "g"
+  },
+  {
+   "code": "489",
+   "aph": "AMP",
+   "description": "Aménagement paysagé",
+   "categorie": "Végétation",
+   "couche": "C-VEG-PLANTATION",
+   "type": "g"
+  },
+  {
+   "code": "490",
+   "aph": "BAN",
+   "description": "Banc (dans un parc)",
+   "categorie": "Bâtiment",
+   "couche": "C-SER-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "491",
+   "aph": "ENS",
+   "description": "Ensemencement",
+   "categorie": "Végétation",
+   "couche": "C-VEG-ENGAZONNEMENT",
+   "type": "g"
+  },
+  {
+   "code": "492",
+   "aph": "JAL",
+   "description": "Jardin limite",
+   "categorie": "Végétation",
+   "couche": "C-VEG-JARDIN-LIMITE",
+   "type": "g"
+  },
+  {
+   "code": "493",
+   "aph": "SCH",
+   "description": "Souche",
+   "categorie": "Végétation",
+   "couche": "C-VEG-ARBRE",
+   "type": "g"
+  },
+  {
+   "code": "494",
+   "aph": "DVE",
+   "description": "Divers (Végétation)",
+   "categorie": "Végétation",
+   "couche": "C-VEG-DIVERS",
+   "type": "g"
+  },
+  {
+   "code": "495",
+   "aph": "AQS",
+   "description": "Aqueduc secondaire",
+   "categorie": "Services publics",
+   "couche": "C-SER-AQUEDUC",
+   "type": "g"
+  },
+  {
+   "code": "496",
+   "aph": "EGP",
+   "description": "Conduite égout pluvial",
+   "categorie": "Services publics",
+   "couche": "C-DRA-EGOUT-PLUVIAL",
+   "type": "g"
+  },
+  {
+   "code": "497",
+   "aph": "EGS",
+   "description": "Conduite égout sanitaire",
+   "categorie": "Services publics",
+   "couche": "C-SER-EGOUT-SANITAIR",
+   "type": "g"
+  },
+  {
+   "code": "498",
+   "aph": "EGC",
+   "description": "Conduite égout combiné",
+   "categorie": "Services publics",
+   "couche": "C-SER-EGOUT-COMBINE",
+   "type": "g"
+  },
+  {
+   "code": "499",
+   "aph": "BRA",
+   "description": "Branchement (Conduite)",
+   "categorie": "Services publics",
+   "couche": "C-SER-BRANCHEMENT-COND",
+   "type": "g"
+  },
+  {
+   "code": "515",
+   "aph": "AIE",
+   "description": "Aire d'entreposage",
+   "categorie": "Bâtiment",
+   "couche": "C-VOI-AIRE-ENTREPOSAGE",
+   "type": "g"
+  },
+  {
+   "code": "517",
+   "aph": "CIT",
+   "description": "Citerne",
+   "categorie": "Bâtiment",
+   "couche": "C-VOI-CITERNE",
+   "type": "g"
+  },
+  {
+   "code": "518",
+   "aph": "CON",
+   "description": "Conteneur",
+   "categorie": "Bâtiment",
+   "couche": "C-VOI-CONTENEUR",
+   "type": "g"
+  },
+  {
+   "code": "519",
+   "aph": "PLB",
+   "description": "Plateforme bas",
+   "categorie": "Bâtiment",
+   "couche": "C-VOI-PLATEFORME",
+   "type": "g",
+   "motscles": "Plateforme, bas"
+  },
+  {
+   "code": "521",
+   "aph": "PLH",
+   "description": "Plateforme haut",
+   "categorie": "Bâtiment",
+   "couche": "C-VOI-PLATEFORME",
+   "type": "g",
+   "motscles": "Plateforme, haut"
+  },
+  {
+   "code": "522",
+   "aph": "PGA",
+   "description": "Porte de garage",
+   "categorie": "Bâtiment",
+   "couche": "C-VOI-ACCES-BATIMENT",
+   "type": "g"
+  },
+  {
+   "code": "523",
+   "aph": "PEN",
+   "description": "Porte d'entrée",
+   "categorie": "Bâtiment",
+   "couche": "C-VOI-ACCES-BATIMENT",
+   "type": "g"
+  },
+  {
+   "code": "525",
+   "aph": "PBO",
+   "description": "Poteau en bois",
+   "categorie": "Bâtiment",
+   "couche": "C-VOI-PROTECTION",
+   "type": "g"
+  },
+  {
+   "code": "526",
+   "aph": "ROU",
+   "description": "Roulotte",
+   "categorie": "Bâtiment",
+   "couche": "C-VOI-ROULOTTE",
+   "type": "g"
+  },
+  {
+   "code": "527",
+   "aph": "ABI",
+   "description": "Abri",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ANNEXE",
+   "type": "g"
+  },
+  {
+   "code": "528",
+   "aph": "GAR",
+   "description": "Garage",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ANNEXE",
+   "type": "g"
+  },
+  {
+   "code": "529",
+   "aph": "REM",
+   "description": "Remise",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ANNEXE",
+   "type": "g"
+  },
+  {
+   "code": "530",
+   "aph": "DIB",
+   "description": "Divers (bâtiment)",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-DIVERS",
+   "type": "g"
+  },
+  {
+   "code": "531",
+   "aph": "CEB",
+   "description": "Chambre Électrique (Bâtiment)",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-CHAMBRE-ELECTRIQUE",
+   "type": "g"
+  },
+  {
+   "code": "540",
+   "aph": "EBE",
+   "description": "Entrée de Béton",
+   "categorie": "Infrastructure routière",
+   "couche": "C-BAT-ACCES-BETON",
+   "type": "g",
+   "motscles": "Entrée, béton"
+  },
+  {
+   "code": "541",
+   "aph": "EPU",
+   "description": "Revêtement en pavé unis (Entrée pavé unis )",
+   "categorie": "Infrastructure routière",
+   "couche": "C-BAT-ACCES-PAVE-UNI",
+   "type": "g",
+   "motscles": "Entrée, pavé unis"
+  },
+  {
+   "code": "542",
+   "aph": "PCY",
+   "description": "Piste cyclable",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-PISTE-CYCLABLE",
+   "type": "g"
+  },
+  {
+   "code": "543",
+   "aph": "SEN",
+   "description": "Sentier (bord)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-SENTIER",
+   "type": "g",
+   "motscles": "Sentier, bord"
+  },
+  {
+   "code": "544",
+   "aph": "SEC",
+   "description": "Sentier (centre)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-SENTIER",
+   "type": "g",
+   "motscles": "Sentier, centre"
+  },
+  {
+   "code": "545",
+   "aph": "DIR",
+   "description": "Divers (Rues, Routes)",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-DIVERS",
+   "type": "g"
+  },
+  {
+   "code": "546",
+   "aph": "DTV",
+   "description": "Décapage terre végétale",
+   "categorie": "Infrastructure routière",
+   "couche": "C-TOP-DÉCAPAGE",
+   "type": "g"
+  },
+  {
+   "code": "547",
+   "aph": "MRT",
+   "description": "Murêt",
+   "categorie": "Structures",
+   "couche": "C-STR-MURET",
+   "type": "g"
+  },
+  {
+   "code": "600",
+   "aph": "ARC",
+   "description": "Fouilles archéologiques",
+   "categorie": "Topographie",
+   "couche": "C-TOP-FOUIL-ARCHEO",
+   "type": "g"
+  },
+  {
+   "code": "601",
+   "aph": "FOF",
+   "description": "Fond de fouille",
+   "categorie": "Topographie",
+   "couche": "C-TOP-FOND-FOUILLE",
+   "type": "g",
+   "motscles": "Fouille, fond"
+  },
+  {
+   "code": "610",
+   "aph": "BEP",
+   "description": "Béton projeté",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-BET-PROJETE",
+   "type": "g"
+  },
+  {
+   "code": "620",
+   "aph": "BRI",
+   "description": "Bride",
+   "categorie": "Services publics",
+   "couche": "C-SER-BRIDE",
+   "type": "g"
+  },
+  {
+   "code": "640",
+   "aph": "MEP",
+   "description": "Membrane projetée",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-MEMBRANE-PROJETÉE",
+   "type": "g"
+  },
+  {
+   "code": "641",
+   "aph": "PLA",
+   "description": "Plancher",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "642",
+   "aph": "PLO",
+   "description": "Plafond",
+   "categorie": "Bâtiment",
+   "couche": "C-BAT-ACCESSOIRE",
+   "type": "g"
+  },
+  {
+   "code": "650",
+   "aph": "CIB",
+   "description": "Cible de station",
+   "categorie": "Repères",
+   "couche": "C-REP-CIBLES",
+   "type": "g"
+  },
+  {
+   "code": "651",
+   "aph": "BIN",
+   "description": "Bille de Nivellement",
+   "categorie": "Repères",
+   "couche": "C-REP-GEODESIQUE",
+   "type": "g"
+  },
+  {
+   "code": "652",
+   "aph": "MOA",
+   "description": "Monument station d'arpentage",
+   "categorie": "Repères",
+   "couche": "C-REP-GEODESIQUE",
+   "type": "g"
+  },
+  {
+   "code": "653",
+   "aph": "PCN",
+   "description": "Poinçon (punch)",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "g"
+  },
+  {
+   "code": "654",
+   "aph": "PIN",
+   "description": "Tige pour prisme ancré",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "g"
+  },
+  {
+   "code": "660",
+   "aph": "MUB",
+   "description": "Mur Berlinois",
+   "categorie": "Structures",
+   "couche": "C-STR-MUR-BERLINOIS",
+   "type": "g"
+  },
+  {
+   "code": "661",
+   "aph": "ROB",
+   "description": "Boulon ancrage (Rocbolt)",
+   "categorie": "Structures",
+   "couche": "C-STR-ROC-BOLT",
+   "type": "g"
+  },
+  {
+   "code": "662",
+   "aph": "DYN",
+   "description": "Dynamitage / Blast",
+   "categorie": "Structures",
+   "couche": "C-STR-DYNAMITAGE-BLAST",
+   "type": "g"
+  },
+  {
+   "code": "670",
+   "aph": "CRE",
+   "description": "Cours d'eau voirie",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-COURS-EAU-VOIRIE",
+   "type": "g",
+   "motscles": "Cours d'eau (voirie)"
+  },
+  {
+   "code": "700",
+   "aph": "FER",
+   "description": "Vérification-Fermeture",
+   "categorie": "Repères",
+   "couche": "C-REP-ARPENTAGE",
+   "type": "g"
+  },
+  {
+   "code": "701",
+   "aph": "OUV",
+   "description": "Ouverture",
+   "categorie": "Repères",
+   "couche": "C-REP-POLYGONALE",
+   "type": "d"
+  },
+  {
+   "code": "755",
+   "aph": "PFO",
+   "description": "Patron de Forage",
+   "categorie": "Structures",
+   "couche": "C-STR-PATRON-FORAGE",
+   "type": "g"
+  },
+  {
+   "code": "900",
+   "aph": "TIE",
+   "description": "Traverse de Voie Ferrée (Tie)",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-ACCESSOIRE",
+   "type": "c",
+   "motscles": "Voie Ferrée, Traverse (Tie)"
+  },
+  {
+   "code": "903",
+   "aph": "TRE",
+   "description": "Terre remaniée-EMPRUNT",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-TERRE-REMAN",
+   "type": "d"
+  },
+  {
+   "code": "904",
+   "aph": "PNE",
+   "description": "Pierre nette",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-PC50",
+   "type": "d"
+  },
+  {
+   "code": "905",
+   "aph": "PC0",
+   "description": "Pierre concasse 0-50",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-PC50",
+   "type": "d"
+  },
+  {
+   "code": "906",
+   "aph": "PC5",
+   "description": "Pierre concasse 50-300",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-PC300",
+   "type": "d"
+  },
+  {
+   "code": "907",
+   "aph": "MMR",
+   "description": "Matériaux recyclé MR",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-MR",
+   "type": "d"
+  },
+  {
+   "code": "908",
+   "aph": "SAB",
+   "description": "Sable",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-SABLE",
+   "type": "d"
+  },
+  {
+   "code": "909",
+   "aph": "MG2",
+   "description": "MG-20",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-MG20",
+   "type": "d"
+  },
+  {
+   "code": "911",
+   "aph": "MG1",
+   "description": "MG-112",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-MG112",
+   "type": "d"
+  },
+  {
+   "code": "913",
+   "aph": "MG5",
+   "description": "MG-56",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-MG56",
+   "type": "d"
+  },
+  {
+   "code": "916",
+   "aph": "PSP",
+   "description": "Poussière de pierre",
+   "categorie": "Infrastructure routière",
+   "couche": "C-VOI-POU-PIERRE",
+   "type": "d"
+  },
+  {
+   "code": "917",
+   "aph": "AQP",
+   "description": "Aqueduc haute-pression",
+   "categorie": "Services publics",
+   "couche": "C-SER-AQUEDUC",
+   "type": "d"
+  },
+  {
+   "code": "918",
+   "aph": "ETA",
+   "description": "Étaiement",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d",
+   "motscles": "Etaiement"
+  },
+  {
+   "code": "919",
+   "aph": "DIA",
+   "description": "Diaphragme",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  },
+  {
+   "code": "920",
+   "aph": "COU",
+   "description": "Couronnement MSE",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  },
+  {
+   "code": "921",
+   "aph": "INC",
+   "description": "Inclusion MSE",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  },
+  {
+   "code": "922",
+   "aph": "PRE",
+   "description": "Pré-Dalle",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  },
+  {
+   "code": "923",
+   "aph": "RAG",
+   "description": "Rail Gomaco",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  },
+  {
+   "code": "924",
+   "aph": "ANN",
+   "description": "Anneau d'étanchéité",
+   "categorie": "Services publics",
+   "couche": "C-SER-AQUEDUC-ELEMENT",
+   "type": "d"
+  },
+  {
+   "code": "925",
+   "aph": "PEX",
+   "description": "Panneau Extérieur",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  },
+  {
+   "code": "1000",
+   "aph": "CAB",
+   "description": "Caisson AV Bétonnage",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-CAISSON-AV-BETON",
+   "type": "g"
+  },
+  {
+   "code": "1100",
+   "aph": "CTQ",
+   "description": "Caisson TQC",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-CAISSON-TQC",
+   "type": "d"
+  },
+  {
+   "code": "2000",
+   "aph": "COL",
+   "description": "Colonne AV Betonnage",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-COLONNE-AV-BETON",
+   "type": "g"
+  },
+  {
+   "code": "2100",
+   "aph": "COT",
+   "description": "Colonne TQC",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-COLONNE-TQC",
+   "type": "g"
+  },
+  {
+   "code": "2200",
+   "aph": "CAC",
+   "description": "Colonne d'acier",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-COLONNE-ACIER",
+   "type": "g"
+  },
+  {
+   "code": "3000",
+   "aph": "ECB",
+   "description": "Écrou AV Beton",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-ECROU-AV-BETON",
+   "type": "d"
+  },
+  {
+   "code": "3001",
+   "aph": "CHB",
+   "description": "Chevêtre AV Beton",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-CHEVETRE-AV-BETON",
+   "type": "d"
+  },
+  {
+   "code": "3002",
+   "aph": "ASB",
+   "description": "Assise AV Beton",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-ASSISE-AV-BETON",
+   "type": "d"
+  },
+  {
+   "code": "3003",
+   "aph": "CCB",
+   "description": "Clé Cis. AV Beton",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-CLE-CIS-AV-BETON",
+   "type": "d"
+  },
+  {
+   "code": "3004",
+   "aph": "PTB",
+   "description": "PT AV Béton",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  },
+  {
+   "code": "3100",
+   "aph": "ECT",
+   "description": "Écrou TQC",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-ECROU-TQC",
+   "type": "d"
+  },
+  {
+   "code": "3101",
+   "aph": "CHT",
+   "description": "Chevêtre TQC",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-CHEVETRE-TQC",
+   "type": "d"
+  },
+  {
+   "code": "3102",
+   "aph": "AST",
+   "description": "Assise TQC",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-ASSISE-TQC",
+   "type": "d"
+  },
+  {
+   "code": "3103",
+   "aph": "CCT",
+   "description": "Clé Cisaillement TQC",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-CLE-CIS-TQC",
+   "type": "d"
+  },
+  {
+   "code": "3104",
+   "aph": "PTC",
+   "description": "PT TQC",
+   "categorie": "TQC STRUCTURE",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  },
+  {
+   "code": "4000",
+   "aph": "BLL",
+   "description": "Ballast",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-ACCESSOIRE",
+   "type": "c"
+  },
+  {
+   "code": "4001",
+   "aph": "PIE",
+   "description": "Piedestal",
+   "categorie": "Ferroviaire",
+   "couche": "C-FER-ACCESSOIRE",
+   "type": "c"
+  },
+  {
+   "code": "4002",
+   "aph": "DNP",
+   "description": "Drain non-perforé",
+   "categorie": "Draînage",
+   "couche": "C-DRA-DRAIN",
+   "type": "d",
+   "motscles": "Drain non perforé"
+  },
+  {
+   "code": "4003",
+   "aph": "CAI",
+   "description": "Casing",
+   "categorie": "Structures",
+   "couche": "C-STR-CAISSON",
+   "type": "d"
+  },
+  {
+   "code": "4004",
+   "aph": "LDE",
+   "description": "Ligne de démolition",
+   "categorie": "Structures",
+   "couche": "C-TOP-DIVERS",
+   "type": "d"
+  },
+  {
+   "code": "4005",
+   "aph": "CIM",
+   "description": "Cintre métallique (rib)",
+   "categorie": "Structures",
+   "couche": "C-STR-DIVERS_STRUCTURE",
+   "type": "d"
+  }
+ ]
+}

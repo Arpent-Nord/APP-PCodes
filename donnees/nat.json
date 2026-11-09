@@ -1,0 +1,232 @@
+{
+ "_note": "Natures (NAT) et types de levé du nom de fichier AAMMJJSECT#NATSS (NDA-001, sections 8 et 10.2). Source officielle de la table NAT : Administration -> reference.json. Garder cette copie publique identique.",
+ "version": "2026-11-09",
+ "types": [
+  {
+   "code": "1",
+   "description": "Levé"
+  },
+  {
+   "code": "2",
+   "description": "Implantation"
+  },
+  {
+   "code": "3",
+   "description": "Quantité"
+  },
+  {
+   "code": "4",
+   "description": "TQC"
+  },
+  {
+   "code": "5",
+   "description": "Contrôle"
+  },
+  {
+   "code": "6",
+   "description": "Relevé conjoint"
+  },
+  {
+   "code": "7",
+   "description": "Tiers"
+  }
+ ],
+ "nat": [
+  {
+   "code": "ANC",
+   "description": "Ancrage"
+  },
+  {
+   "code": "ARM",
+   "description": "Armature"
+  },
+  {
+   "code": "BAT",
+   "description": "Bathymétrie"
+  },
+  {
+   "code": "BET",
+   "description": "Béton"
+  },
+  {
+   "code": "BLL",
+   "description": "Ballast"
+  },
+  {
+   "code": "BOR",
+   "description": "Bordure"
+  },
+  {
+   "code": "COF",
+   "description": "Coffrage"
+  },
+  {
+   "code": "CUL",
+   "description": "Culée"
+  },
+  {
+   "code": "DEC",
+   "description": "Décapage"
+  },
+  {
+   "code": "DIV",
+   "description": "Divers"
+  },
+  {
+   "code": "DRA",
+   "description": "Drainage"
+  },
+  {
+   "code": "EMP",
+   "description": "Empierrement"
+  },
+  {
+   "code": "ENV",
+   "description": "Environnement"
+  },
+  {
+   "code": "EXC",
+   "description": "Déblai, terrain excavé"
+  },
+  {
+   "code": "FOR",
+   "description": "Forage"
+  },
+  {
+   "code": "FOS",
+   "description": "Fossé"
+  },
+  {
+   "code": "GAZ",
+   "description": "Conduites de gaz"
+  },
+  {
+   "code": "GEO",
+   "description": "Géogrille"
+  },
+  {
+   "code": "GLI",
+   "description": "Glissière"
+  },
+  {
+   "code": "GRF",
+   "description": "Granulaire de fondation (MG20)"
+  },
+  {
+   "code": "GRS",
+   "description": "Granulaire de sous-fondation (MG112)"
+  },
+  {
+   "code": "INF",
+   "description": "Infra"
+  },
+  {
+   "code": "INI",
+   "description": "Terrain initial"
+  },
+  {
+   "code": "JPV",
+   "description": "Juste pour voir"
+  },
+  {
+   "code": "MEM",
+   "description": "Membrane géotextile"
+  },
+  {
+   "code": "MON",
+   "description": "Monitoring de structure"
+  },
+  {
+   "code": "MUR",
+   "description": "Mur de soutènement"
+  },
+  {
+   "code": "PAL",
+   "description": "Palplanche"
+  },
+  {
+   "code": "PAV",
+   "description": "Pavage"
+  },
+  {
+   "code": "PIE",
+   "description": "Pieux / caissons"
+  },
+  {
+   "code": "PIL",
+   "description": "Pile de réserve"
+  },
+  {
+   "code": "PLU",
+   "description": "Égout pluvial"
+  },
+  {
+   "code": "PON",
+   "description": "Pont et ponceau"
+  },
+  {
+   "code": "POU",
+   "description": "Poutre"
+  },
+  {
+   "code": "REM",
+   "description": "Remblai"
+  },
+  {
+   "code": "ROB",
+   "description": "Boulon d'ancrage"
+  },
+  {
+   "code": "ROC",
+   "description": "Roc (naturel en place, initial après décapage, ou excavé)"
+  },
+  {
+   "code": "SAN",
+   "description": "Égout sanitaire"
+  },
+  {
+   "code": "SCI",
+   "description": "Sciage"
+  },
+  {
+   "code": "SIG",
+   "description": "Signalisation routière"
+  },
+  {
+   "code": "SON",
+   "description": "Sondage"
+  },
+  {
+   "code": "SST",
+   "description": "Santé et sécurité"
+  },
+  {
+   "code": "STA",
+   "description": "Réseau de stations"
+  },
+  {
+   "code": "SUE",
+   "description": "Surexcavation"
+  },
+  {
+   "code": "TAB",
+   "description": "Tablier"
+  },
+  {
+   "code": "TNN",
+   "description": "Terrain naturel"
+  },
+  {
+   "code": "TRA",
+   "description": "Transition"
+  },
+  {
+   "code": "TRO",
+   "description": "Trottoir"
+  },
+  {
+   "code": "UTI",
+   "description": "Utilités publiques"
+  }
+ ]
+}
